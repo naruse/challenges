@@ -68,7 +68,6 @@ int main(int argc, char* argv[]) {
     cout << endl << "Rotated picture" << endl;
     RotateMatrixClockWise(test, rotatedMatrix, N, M);
     PrintMatrix(rotatedMatrix, M, N);
-    
 }
 
 void RotateMatrixClockWise(int* matrix, int* rot, int originalN, int originalM) {
