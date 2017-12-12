@@ -50,10 +50,17 @@ void PrintList(const Node* head) {
     cout << "END" << endl;
 }
 
-pair<bool,Node const*> IsListCorrupted(Node const* head) {
+pair<bool,Node const*> IsListCorrupted(Node const* head) { // Node const* foo
+                                                           // IS: a POINTER
+                                                           // to a CONSTANT
+                                                           // NODE, Meaning I
+                                                           // CANNOT CHANGE
+                                                           // THE NODE but
+                                                           // the pointer can
+                                                           // be changed
     if(head == nullptr) return pair<bool, Node const*>(false,nullptr);//empty list is good list
     unordered_set<int> checkedValues;
-    const Node* current = head;
+    Node const* current = head;//pointer to a constant node
     checkedValues.insert(current->data);
     while(current->next != nullptr) {
         if(checkedValues.find(current->next->data) == checkedValues.end())//value doesnt exists,letsAddItToHash
@@ -72,7 +79,7 @@ pair<bool,Node const*> IsListCorrupted(Node const* head) {
 }
 
 int main(int argc, char* argv[]) {
-    Node* head = new Node(5);
+    Node* const head = new Node(5);//A Constant pointer to a node
     head->AddToEnd(7);
     head->AddToEnd(3);
     head->AddToEnd(4);
@@ -85,7 +92,7 @@ int main(int argc, char* argv[]) {
     PrintList(head);
 
 
-    pair<bool, Node*> corruptedListResult(false, nullptr);
+    pair<bool, Node const*/*pointer to a constant Node*/> corruptedListResult(false, nullptr);
     corruptedListResult = IsListCorrupted(head);
     if(corruptedListResult.first) {
         cout << "Found corruption on list, node: " << corruptedListResult.second->data << endl;
