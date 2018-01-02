@@ -49,7 +49,8 @@ void PrintList(const Node* head) {
     }
     cout << "END" << endl;
 }
-
+//Node const* --> Pointer to a constant node
+//Node *const --> Constaint pointer to a node
 pair<bool,Node const*> IsListCorrupted(Node const* head) { // Node const* foo
                                                            // IS: a POINTER
                                                            // to a CONSTANT
