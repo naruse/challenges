@@ -41,8 +41,8 @@ public:
 int GetTreeHeight(Node* const n) {
 
     if(n == nullptr) return 0;
-    int lHeight = GetTreeHeight(n->left) +1;
-    int rHeight = GetTreeHeight(n->right) +1;
+    int lHeight = GetTreeHeight(n->left);
+    int rHeight = GetTreeHeight(n->right);
 
     if(lHeight == -1)
         return -1;
@@ -51,7 +51,7 @@ int GetTreeHeight(Node* const n) {
     if(abs(lHeight - rHeight) > 1)
         return -1;
     else
-        return max(lHeight, rHeight);
+        return max(lHeight, rHeight) + 1;
 }
 
 bool IsTreeBalanced(Node* root) {
