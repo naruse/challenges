@@ -1,0 +1,2 @@
+command:
+g++ -std=c++11 -stdlib=libc++ Part1.cpp -o main
