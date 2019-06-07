@@ -128,9 +128,9 @@ int main(int argc, char* argv[]) {
     map<int, tuple<int,int> > maxMinutesSleepingPerGuard;//guardID, <totalMinutesSleep, longestsleep>
     int currentGuardID = -1;
 
-    /*for(int i = 0; i < statusOfGuards.size(); i++) {
+    for(int i = 0; i < statusOfGuards.size(); i++) {
         cout << get<0>(statusOfGuards[i]).ToString() << " --- " << get<1>(statusOfGuards[i]) << endl;
-        }*/
+    }
 
     for(int i = 0; i < statusOfGuards.size(); i++) {
 
@@ -158,8 +158,10 @@ int main(int argc, char* argv[]) {
             int longestSleep = get<1>(maxMinutesSleepingPerGuard[currentGuardID]);
 
 
-            if(get<1>(maxMinutesSleepingPerGuard[currentGuardID]) < currentTimeSlept)
+            if(get<1>(maxMinutesSleepingPerGuard[currentGuardID]) < currentTimeSlept) {
                 longestSleep = currentTimeSlept;
+                
+            }
 
             maxMinutesSleepingPerGuard[currentGuardID] = make_tuple(get<0>(maxMinutesSleepingPerGuard[currentGuardID])+currentTimeSlept, longestSleep);
         }
