@@ -1,0 +1,15 @@
+/Users/juansebastianmunoz/dev/challenges/LeetCode/CSharp/ProgrammingChallenges/obj/Debug/net6.0/ProgrammingChallenges.GeneratedMSBuildEditorConfig.editorconfig
+/Users/juansebastianmunoz/dev/challenges/LeetCode/CSharp/ProgrammingChallenges/obj/Debug/net6.0/ProgrammingChallenges.AssemblyInfoInputs.cache
+/Users/juansebastianmunoz/dev/challenges/LeetCode/CSharp/ProgrammingChallenges/obj/Debug/net6.0/ProgrammingChallenges.AssemblyInfo.cs
+/Users/juansebastianmunoz/dev/challenges/LeetCode/CSharp/ProgrammingChallenges/obj/Debug/net6.0/ProgrammingChallenges.csproj.CoreCompileInputs.cache
+/Users/juansebastianmunoz/dev/challenges/LeetCode/CSharp/ProgrammingChallenges/obj/Debug/net6.0/ProgrammingChallenges.sourcelink.json
+/Users/juansebastianmunoz/dev/challenges/LeetCode/CSharp/ProgrammingChallenges/obj/Debug/net6.0/ProgrammingChallenges.dll
+/Users/juansebastianmunoz/dev/challenges/LeetCode/CSharp/ProgrammingChallenges/obj/Debug/net6.0/refint/ProgrammingChallenges.dll
+/Users/juansebastianmunoz/dev/challenges/LeetCode/CSharp/ProgrammingChallenges/obj/Debug/net6.0/ProgrammingChallenges.pdb
+/Users/juansebastianmunoz/dev/challenges/LeetCode/CSharp/ProgrammingChallenges/bin/Debug/net6.0/ProgrammingChallenges
+/Users/juansebastianmunoz/dev/challenges/LeetCode/CSharp/ProgrammingChallenges/bin/Debug/net6.0/ProgrammingChallenges.deps.json
+/Users/juansebastianmunoz/dev/challenges/LeetCode/CSharp/ProgrammingChallenges/bin/Debug/net6.0/ProgrammingChallenges.runtimeconfig.json
+/Users/juansebastianmunoz/dev/challenges/LeetCode/CSharp/ProgrammingChallenges/bin/Debug/net6.0/ProgrammingChallenges.dll
+/Users/juansebastianmunoz/dev/challenges/LeetCode/CSharp/ProgrammingChallenges/bin/Debug/net6.0/ProgrammingChallenges.pdb
+/Users/juansebastianmunoz/dev/challenges/LeetCode/CSharp/ProgrammingChallenges/obj/Debug/net6.0/ProgrammingChallenges.genruntimeconfig.cache
+/Users/juansebastianmunoz/dev/challenges/LeetCode/CSharp/ProgrammingChallenges/obj/Debug/net6.0/ref/ProgrammingChallenges.dll

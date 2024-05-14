@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "UwWBNeQwDUCI+hl02NKxpelXhFeG7ohmWbwgTIcI9Av4CIcaqlgoNz6zNBHZY5JwdqrecNeh02UP9qyDEyW6IA==",
+  "success": true,
+  "projectFilePath": "/Users/juansebastianmunoz/dev/challenges/LeetCode/CSharp/ProgrammingChallenges/ProgrammingChallenges.csproj",
+  "expectedPackageFiles": [
+    "/Users/juansebastianmunoz/.nuget/packages/microsoft.netcore.app.ref/6.0.29/microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
+    "/Users/juansebastianmunoz/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.29/microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512",
+    "/Users/juansebastianmunoz/.nuget/packages/microsoft.netcore.app.host.osx-x64/6.0.29/microsoft.netcore.app.host.osx-x64.6.0.29.nupkg.sha512"
+  ],
+  "logs": []
+}
