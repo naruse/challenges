@@ -41,11 +41,7 @@ public class ContainersWithMostWater {
             
             var currVol = CalculateVolume(left, right, height);
 
-            if(maxVolume < currVol) {
-                //Console.WriteLine(maxVolume);
-                maxVolume = currVol;
-            }
-            
+            maxVolume = Math.Max(maxVolume,currVol);
         }
 
             

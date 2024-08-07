@@ -20,6 +20,38 @@ Output: 9
 
 */
 
+/*
+la forma correcta es con un hash set, inicializamos el hash set con nums.
+Entonces, para cada numero "num" preguntamos si "num -1" no existe; sino existe quiere decir que potencialmente
+es el mas pequeño del set entonces en un while preguntamos si existe un num+1 y empezamos a incrementar currLength
+y apenas terminemos el while calculamos el maxLength
+static int LongestConsecutive(int[] nums)
+    {
+        HashSet<int> numSet = new HashSet<int>(nums);
+        int maxLength = 0;
+
+        foreach (int num in numSet)
+        {
+            if (!numSet.Contains(num - 1)) // Check if num is the start of a sequence
+            {
+                int currentNum = num;
+                int currentLength = 1;
+
+                // Increment currentNum and currentLength while consecutive elements exist in the set
+                while (numSet.Contains(currentNum + 1))
+                {
+                    currentNum++;
+                    currentLength++;
+                }
+
+                maxLength = Math.Max(maxLength, currentLength);
+            }
+        }
+
+        return maxLength;
+    }
+*/
+
 public class LongestConsecutiveSequence {
     public int Check(int[] nums) {
         if(nums.Length == 0)
